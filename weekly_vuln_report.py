@@ -460,7 +460,7 @@ def normalize_hostname(hostname):
     - For domain names, remove everything after first period
 
     Examples:
-        nwan10.mmplp.net -> nwan10
+        nwan10.acme.com -> nwan10
         192.168.1.1 -> 192.168.1.1
     """
     if not hostname or pd.isna(hostname):
